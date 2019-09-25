@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_gravity="center"
+            android:src="@drawable/meghan"
+            android:layout_marginBottom="8dp"
+            android:id="@+id/profilePicture"
+            android:layout_marginRight="8dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Megan Schutt"
+            android:layout_gravity="center"
+            android:textColor="#222222"
+            android:textStyle="bold"
+            android:textSize="24sp"
+            android:id="@+id/nameText"
+            android:layout_toRightOf="@id/profilePicture"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="meganschutt@gmail.com"
+            android:textColor="#222222"
+            android:textSize="14sp"
+            android:id="@+id/emailText"
+            android:layout_toRightOf="@id/profilePicture"
+            android:layout_below="@id/nameText"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Adelide, Australia"
+            android:layout_gravity="center"
+            android:textColor="#222222"
+            android:textSize="14sp"
+            android:paddingBottom="16dp"
+            android:id="@+id/addressText"
+            android:layout_toRightOf="@id/profilePicture"
+            android:layout_below="@id/emailText"/>
+
+    </RelativeLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="WICKETS"
+            android:layout_gravity="center"
+            android:textColor="#4CAF50"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="EXPERIENCE"
+            android:layout_gravity="center"
+            android:textColor="#4CAF50"/>
+    </LinearLayout>
+
+
+
+
+
+</LinearLayout>
